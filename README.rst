@@ -14,7 +14,7 @@ Sharing the same database across development teams only requires creating a data
 
 To use, simply download it to your development environment by issuing the following command:
 ::
-  git clone https://github.com/jbernadas/drupal8-ci-template.git <your directory name here>
+  git clone https://github.com/jbernadas/docker-drupal8-template.git <your directory name here>
 
 You can now cd into the directory that has been created:
 ::

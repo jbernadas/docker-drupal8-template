@@ -20,7 +20,11 @@ You can now cd into the directory that has been created:
 ::
   cd <your directory name here>
 
-You can now run Docker Compose to download the images and build the container. Issue the following command:
+Remove reference to this repository:
+::
+  rm -rf .git
+
+You then run Docker Compose to download the images and build the container. Issue the following command:
 ::
   docker-compose up -d --build
 

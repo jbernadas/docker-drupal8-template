@@ -34,15 +34,15 @@ We can now go into our container's bash terminal by issuing the below command:
 
 You will be dropped inside your drupal-apache container as root. We can now install Drupal 8 by issuing the below command:
 ::
-  composer create-project drupal-composer/drupal-project:8.x-dev /app --stability dev --no-interaction
+  # composer create-project drupal-composer/drupal-project:8.x-dev /app --stability dev --no-interaction
 
 Create the config/sync directory
 ::
-  mkdir -p /app/config/sync
+  # mkdir -p /app/config/sync
 
 Recursively change the owner of the /app/web directory to Apache user and group
 ::
-  chown -R www-data:www-data /app/web
+  # chown -R www-data:www-data /app/web
 
 Go to localhost:<port number in your docker-compose.yml file> and configure your Drupal 8 site. Remember to put the correct container name in the host section of database credentials.
 
@@ -50,7 +50,7 @@ Comment out the lines /web/sites/*/settings.php and /web/sites/*/files/ in the m
 
 Use Drush to export your Drupal configuration
 ::
-  drush config-export
-  exit
+  # drush config-export
+  # exit
 
 VERY IMPORTANT NOTE: If you use this on a production environment, please don't forget to update your main .gitignore file so that the settings.php and files line is uncommented out.

@@ -28,10 +28,6 @@ Once it is finished building, you can now see your containers by issuing the com
 ::
   docker ps
 
-Change the owner of the newly created app directory by issuing:
-::
-  sudo chown -R <your username>:<your groupname (same as user name)> app
-
 We can now go into our container's bash terminal by issuing the below command:
 ::
   docker exec -it <name of your container> bash

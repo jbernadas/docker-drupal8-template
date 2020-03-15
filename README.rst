@@ -53,4 +53,4 @@ Use Drush to export your Drupal configuration
   # drush config-export
   # exit
 
-VERY IMPORTANT NOTE: If you use this on a production environment, please don't forget to update your main .gitignore file so that the settings.php and files line is uncommented out.
+Thanks for giving this a look.

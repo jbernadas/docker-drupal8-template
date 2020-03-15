@@ -32,6 +32,9 @@ Once it is finished building, you can now see your containers by issuing the com
 ::
   docker ps
 
+Dive inside our container to build our Drupal site
+##########
+
 We can now go into our container's bash terminal by issuing the below command:
 ::
   docker exec -it <name of your container> bash

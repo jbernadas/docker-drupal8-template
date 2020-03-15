@@ -1,5 +1,3 @@
-# docker-drupal8
-
 ==========
 Docker - Drupal 8 Continuous Integration
 ==========
